@@ -1,0 +1,20 @@
+<view class='viewTop'>
+  <view class='topView1'>
+    <image src='/pages/images/datouxiang.png' mode='widthFix' class='Img1'></image>
+  </view>
+  <view class='viewText1'>
+    <text>孙俪</text>
+  </view>
+  <view class='viewText2'>
+    <text>CEO</text>
+  </view>
+  <view class='viewText2'>
+    <text style='color:#000'>河北驰宇网络科技有限公司</text>
+  </view>
+  <view class='viewText2'>
+    <text style='color:#000'>部门：演员部</text>
+  </view>
+  <view class='viewText2'>
+    <text style='color:#000'>人气：112585</text>
+  </view>
+</view>

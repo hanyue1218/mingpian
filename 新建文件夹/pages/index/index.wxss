@@ -1,0 +1,31 @@
+.viewTop{
+  width: 94%;
+  margin-left: 3%;
+  height: 1050rpx;
+  margin-top: 10rpx;
+  box-shadow: 1rpx 5rpx 50rpx #dedbde;
+}
+.topView1{
+  width: 100%;
+  height: 700rpx;
+}
+.Img1{
+  width: 100%;
+  height: 700rpx;
+}
+.viewText1{
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  font-size: 45rpx;
+  font-weight: 600rpx;
+  line-height: 100rpx;
+}
+.viewText2{
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #8c8a8c;
+  line-height: 100rpx;
+}
