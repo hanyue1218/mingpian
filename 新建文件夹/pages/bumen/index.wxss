@@ -1,0 +1,40 @@
+/* pages/bumen/index.wxss */
+page{
+  background: #efeff7;
+}
+.contentBg{
+  width: 700rpx;
+  height: 350rpx;
+  background-image: url('http://source.apichiyu.xyz/mingpian/bumenBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 25rpx;
+  margin-top: 30rpx;
+}
+.content1{
+  width: 100%;
+}
+.contentText{
+  width: 450rpx;
+  float: left;
+  margin-left: 20rpx;
+}
+.contentText1{
+  font-size: 27rpx;
+  color: #999;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+.contentText2{
+  font-size: 40rpx;
+  color: #232222;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}
+.contentImg image{
+  width: 150rpx;
+  float: right;
+  margin-right: 40rpx;
+  margin-top: 30rpx;
+  border-radius: 15rpx;
+}

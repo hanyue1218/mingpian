@@ -1,0 +1,25 @@
+<!--pages/bumen/index.wxml-->
+<view class='contentBg'>
+  <view class='content1'>
+    <view class='contentText'>
+      <view class='contentText1'>
+        <text>河北驰宇网络科技有限公司</text>
+      </view>
+      <view class='contentText2'>
+        <text>任宁</text>
+      </view>
+      <view class='contentText1' style='color:#666;margin-top:5rpx;font-size:25rpx;'>
+        <text>CMO</text>
+      </view>
+      <view class='contentText1'>
+        <text>15968795846</text>
+      </view>
+      <view class='contentText1' style='margin-top:5rpx;'>
+        <text>429756987@qq.com</text>
+      </view>
+    </view>
+    <view class='contentImg'>
+      <image src='/pages/images/jianjie.jpg' mode='widthFix'></image>
+    </view>
+  </view>
+</view>

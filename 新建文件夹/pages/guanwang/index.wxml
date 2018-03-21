@@ -62,6 +62,61 @@
       </view>
     </view>
   </view>
+  <view class='team1'>
+    <view>
+      <image src='/pages/images/jianjie.jpg' mode='widthFix'></image>
+    </view>
+    <view class='teamName'>
+      <view>
+        <text style='font-family: 宋体'>彭超</text>
+      </view>
+      <view>
+        <text style='font-weight:400;font-size:30rpx;'>CEO</text>
+      </view>
+    </view>
+    <view class='zhiwei'>
+      <view>
+        <text>加推科技创始人</text>
+      </view>
+      <view style='margin-top:10rpx;'>
+        <text>资深产品经理</text>
+      </view>
+    </view>
+  </view>
+  <view class='team1'>
+    <view>
+      <image src='/pages/images/jianjie.jpg' mode='widthFix'></image>
+    </view>
+    <view class='teamName'>
+      <view>
+        <text style='font-family: 宋体'>彭超</text>
+      </view>
+      <view>
+        <text style='font-weight:400;font-size:30rpx;'>CEO</text>
+      </view>
+    </view>
+    <view class='zhiwei'>
+      <view>
+        <text>加推科技创始人</text>
+      </view>
+      <view style='margin-top:10rpx;'>
+        <text>资深产品经理</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='content1Title'>
+  <text>部门列表</text>
+</view>
+<view class='contentBumen'>
+  <view class='bumen1' bindtap='toBumen'>
+    <text>部门一</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+  <view class='bumen1'>
+    <text>部门二</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
 </view>
 <view class='content1Title'>
   <text>联系我们</text>

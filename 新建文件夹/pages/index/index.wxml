@@ -44,4 +44,37 @@
   </view>
   <view class='content2Btn'>同步到通讯录</view>
 </view>
+<view class='content1'>
+  <text>部门信息</text>
+</view>
+<view class='contentNews'>
+  <view class='news' bindtap='toNews'>
+    <view class='newsImg'>
+      <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
+    </view>
+    <view class='name'>
+      <text>姓名：朱茵</text>
+    </view>
+    <view class='zhiwei'>
+      <text>职位：演员</text>
+    </view>
+    <view class='tel'>
+      <text>电话：15698765894</text>
+    </view>
+  </view>
+  <view class='news' bindtap='toNews'>
+    <view class='newsImg'>
+      <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
+    </view>
+    <view class='name'>
+      <text>姓名：朱茵</text>
+    </view>
+    <view class='zhiwei'>
+      <text>职位：演员</text>
+    </view>
+    <view class='tel'>
+      <text>电话：15698765894</text>
+    </view>
+  </view>
+</view>
 <view class='jishu'>技术支持：河北驰宇网络科技有限公司</view>

@@ -6,18 +6,21 @@
     "pages/guanwang/index",
     "pages/productXiangqing/index",
     "pages/map/index",
-    "pages/newsXiangqing/index"
+    "pages/newsXiangqing/index",
+    "pages/bumen/index"
   ],
   "window": {
     "navigationBarTitleText": "Demo"
   },
   "tabBar": {
+    "color": "#8c8a8c",
+    "selectedColor": "#18ae18",
     "list": [
       {
         "iconPath": "/pages/images/nav1.png",
         "selectedIconPath": "/pages/images/nav1-1.png",
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "名片"
       },
       {
         "iconPath": "/pages/images/nav2.png",
