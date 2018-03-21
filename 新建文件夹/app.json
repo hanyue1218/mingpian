@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/logs/index",
     "pages/product/index",
-    "pages/guanwang/index"
+    "pages/guanwang/index",
+    "pages/productXiangqing/index",
+    "pages/map/index",
+    "pages/newsXiangqing/index"
   ],
   "window": {
     "navigationBarTitleText": "Demo"

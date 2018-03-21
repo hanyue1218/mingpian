@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  toProductXiangqing:function(){
+    wx.navigateTo({
+      url: '/pages/productXiangqing/index',
+    })
   }
 })

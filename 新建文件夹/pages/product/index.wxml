@@ -1,2 +1,10 @@
-<!--pages/product/index.wxml-->
-<text>pages/product/index.wxml</text>
+<view class='viewTop' bindtap='toProductXiangqing'>
+  <view class='viewtop1'>
+    <view style='float:left; width:200rpx;'>
+      <text class='viewText1'>产品一</text>
+    </view>
+    <view style='float:right; width:450rpx;'>
+      <text class='viewText2'>￥1000.00</text>
+    </view>
+  </view>
+</view>

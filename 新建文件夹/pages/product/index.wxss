@@ -1,1 +1,41 @@
-/* pages/product/index.wxss */
+page{
+  background: #efeff7;
+}
+.viewTop{
+  width: 700rpx;
+  margin-left: 25rpx;
+  height: 500rpx;
+  margin-top: 15rpx;
+  /* box-shadow: 3rpx 15rpx 50rpx #dedbde; */
+  background: #fff;
+  font-family: '宋体';
+  background-image: url('http://source.apichiyu.xyz/mingpian/zhuyin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.viewtop1{
+  width: 100%;
+  height: 80rpx;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+}
+.Img1{
+  width: 700rpx;
+  height: 450rpx;
+}
+.viewText1{
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  color: #fff;
+}
+.viewText2{
+  font-size: 35rpx;
+  color: red;
+  float: right;
+}
