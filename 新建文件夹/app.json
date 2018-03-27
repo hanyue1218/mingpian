@@ -3,11 +3,12 @@
     "pages/index/index",
     "pages/logs/index",
     "pages/product/index",
-    "pages/guanwang/index",
     "pages/productXiangqing/index",
     "pages/map/index",
     "pages/newsXiangqing/index",
-    "pages/bumen/index"
+    "pages/bumen/index",
+    "pages/mingpianList/index",
+    "pages/myself/index"
   ],
   "window": {
     "navigationBarTitleText": "Demo"
@@ -17,10 +18,10 @@
     "selectedColor": "#18ae18",
     "list": [
       {
-        "iconPath": "/pages/images/nav1.png",
-        "selectedIconPath": "/pages/images/nav1-1.png",
+        "iconPath": "/pages/images/nav4.png",
+        "selectedIconPath": "/pages/images/nav4-1.png",
         "pagePath": "pages/index/index",
-        "text": "名片"
+        "text": "官网"
       },
       {
         "iconPath": "/pages/images/nav2.png",
@@ -29,10 +30,10 @@
         "text": "产品"
       },
       {
-        "iconPath": "/pages/images/nav4.png",
-        "selectedIconPath": "/pages/images/nav4-1.png",
-        "pagePath": "pages/guanwang/index",
-        "text": "官网"
+        "iconPath": "/pages/images/nav1.png",
+        "selectedIconPath": "/pages/images/nav1-1.png",
+        "pagePath": "pages/mingpianList/index",
+        "text": "名片"
       }
     ]
   },

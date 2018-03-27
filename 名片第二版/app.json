@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index",
+    "pages/product/index",
+    "pages/guanwang/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "名片第二版"
+  },
+ "tabBar": {
+  "color": "#8c8a8c",
+  "selectedColor": "#18ae18",
+  "list": [
+    {
+      "iconPath": "/pages/images/nav1.png",
+      "selectedIconPath": "/pages/images/nav1-1.png",
+      "pagePath": "pages/index/index",
+      "text": "名片"
+    },
+    {
+      "iconPath": "/pages/images/nav2.png",
+      "selectedIconPath": "/pages/images/nav2-1.png",
+      "pagePath": "pages/product/index",
+      "text": "产品"
+    },
+    {
+      "iconPath": "/pages/images/nav4.png",
+      "selectedIconPath": "/pages/images/nav4-1.png",
+      "pagePath": "pages/guanwang/index",
+      "text": "官网"
+    }
+  ]
+},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,4 +1,5 @@
 //app.js
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -7,11 +8,42 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
+    var loginUrl = app.globalData.baseUrl + 'wx/login/index' 
     wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+      success: function (res) {
+        if (res.code) {
+          console.log(res)
+          //发起网络请求
+          wx.request({
+            url: loginUrl,
+            method: 'POST',
+            data: {
+              code: res.code,
+              companyid: app.globalData.companyid
+            },
+            header: {
+              'content-type': 'application/x-www-form-urlencoded' // 默认值
+            },
+            success: function (res) {
+              console.log(res)
+              if (res.data.status) {
+                wx.setStorageSync('sessionid', res.data.id)
+                console.log('登陆成功')
+                console.log(wx.getStorageSync('sessionid'))
+              } else {
+                wx.showToast({
+                  title: '失败',
+                  icon: 'loading',
+                  duration: 2000
+                })
+              }
+            }
+          })
+        } else {
+          console.log('获取用户登录态失败！' + res.errMsg)
+        }
       }
-    })
+    });
     // 获取用户信息
     wx.getSetting({
       success: res => {
@@ -34,6 +66,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    baseUrl:""
   }
 })

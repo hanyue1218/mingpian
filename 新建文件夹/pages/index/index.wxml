@@ -1,80 +1,138 @@
-<view class='viewTop'>
-  <view class='topView1'>
-    <image src='/pages/images/datouxiang.png' mode='widthFix' class='Img1'></image>
-  </view>
-  <view class='viewText1'>
-    <text>孙俪</text>
-  </view>
-  <view class='viewText2'>
-    <text style='font-weight:bold'>CEO</text>
-  </view>
-  <view class='viewText2'>
-    <text style='color:#000'>河北驰宇网络科技有限公司</text>
-  </view>
-  <view class='viewText2'>
-    <text style='color:#000'>部门：演员部</text>
-  </view>
-  <view class='viewText2'>
-    <text style='color:#000'>人气：112585</text>
-  </view>
+<!--pages/guanwang/index.wxml-->
+<view class='shouTu'>
+  <image src='{{company.Headimg}}' mode='widthFix'></image>
+</view>
+<view class='content1Title'>
+  <text>企业简介</text>
 </view>
 <view class='content1'>
-  <text>个人信息</text>
+  <view class='content1-1'>
+  <text>{{company.description}}</text>
+  </view>
 </view>
-<view class='content2'>
-  <view class='content2-1' bindtap='toTel'>
-    <text style='color:#000;'>手机</text>
-    <text style='margin-left:40rpx;'>15127896987</text>
-  </view>
-  <view class='content2-1'>
-    <text style='color:#000;'>微信</text>
-    <text style='margin-left:40rpx;'>15127896987</text>
-  </view>
-  <view class='content2-1'>
-    <text style='color:#000;'>邮箱</text>
-    <text style='margin-left:40rpx;'>429856987@qq.com</text>
-  </view>
-  <view class='content2-1'>
-    <text style='color:#000;'>公司</text>
-    <text style='margin-left:40rpx;'>河北驰宇网络科技有限公司</text>
-  </view>
-  <view class='content2-1'>
-    <text style='color:#000;'>地址</text>
-    <text style='margin-left:40rpx;'>石家庄平安南大街河北人防大厦</text>
-  </view>
-  <view class='content2Btn'>同步到通讯录</view>
-</view>
-<view class='content1'>
-  <text>部门信息</text>
+<view class='content1Title'>
+  <text>企业资讯</text>
 </view>
 <view class='contentNews'>
-  <view class='news' bindtap='toNews'>
+  <block  wx:for="{{listnews}}">
+    <view class='news' bindtap='toNews'>
+      <view class='newsImg'>
+        <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
+      </view>
+      <view class='newsTitle'>
+        <text>{{item.title}}</text>
+      </view>
+      <view class='newsTime'>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+  </block>
+  <!-- <view class='news'>
     <view class='newsImg'>
       <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
     </view>
-    <view class='name'>
-      <text>姓名：朱茵</text>
+    <view class='newsTitle'>
+      <text>新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</text>
+    </view>
+    <view class='newsTime'>
+      <text>2018-03-13</text>
+    </view>
+  </view> -->
+</view>
+<view class='content1Title'>
+  <text>管理团队</text>
+</view>
+<view class='team'>
+  <block wx:for="{{listTeam}}">
+    <view class='team1'>
+      <view>
+        <image src='{{item.headimg}}' mode='widthFix'></image>
+      </view>
+      <view class='teamName'>
+        <view>
+          <text style='font-family: 宋体'>{{item.firstname}}{{item.lastname}}</text>
+        </view>
+        <view>
+          <text style='font-weight:400;font-size:30rpx;'>{{item.title}}</text>
+        </view>
+      </view>
+      <view class='zhiwei'>
+        <view>
+          <text>{{item.remark}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  <!-- <view class='team1'>
+    <view>
+      <image src='/pages/images/jianjie.jpg' mode='widthFix'></image>
+    </view>
+    <view class='teamName'>
+      <view>
+        <text style='font-family: 宋体'>彭超</text>
+      </view>
+      <view>
+        <text style='font-weight:400;font-size:30rpx;'>CEO</text>
+      </view>
     </view>
     <view class='zhiwei'>
-      <text>职位：演员</text>
-    </view>
-    <view class='tel'>
-      <text>电话：15698765894</text>
+      <view>
+        <text>加推科技创始人</text>
+      </view>
+      <view style='margin-top:10rpx;'>
+        <text>资深产品经理</text>
+      </view>
     </view>
   </view>
-  <view class='news' bindtap='toNews'>
-    <view class='newsImg'>
-      <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
+  <view class='team1'>
+    <view>
+      <image src='/pages/images/jianjie.jpg' mode='widthFix'></image>
     </view>
-    <view class='name'>
-      <text>姓名：朱茵</text>
+    <view class='teamName'>
+      <view>
+        <text style='font-family: 宋体'>彭超</text>
+      </view>
+      <view>
+        <text style='font-weight:400;font-size:30rpx;'>CEO</text>
+      </view>
     </view>
     <view class='zhiwei'>
-      <text>职位：演员</text>
+      <view>
+        <text>加推科技创始人</text>
+      </view>
+      <view style='margin-top:10rpx;'>
+        <text>资深产品经理</text>
+      </view>
     </view>
-    <view class='tel'>
-      <text>电话：15698765894</text>
-    </view>
+  </view> -->
+</view>
+<!-- <view class='content1Title'>
+  <text>部门列表</text>
+</view>
+<view class='contentBumen'>
+  <view class='bumen1' bindtap='toBumen'>
+    <text>部门一</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+  <view class='bumen1'>
+    <text>部门二</text>
+    <image src='/pages/images/jiaobiao2.png' mode='widthFix'></image>
+  </view>
+</view> -->
+<view class='content1Title'>
+  <text>联系我们</text>
+</view>
+<view class='contact' bindtap='toTel'>
+  <view class='contact1'>
+    <text>{{company.tel}}</text>
   </view>
 </view>
+<view class='content1Title'>
+  <text>公司地址</text>
+</view>
+<view class='map' bindtap='toMap'>
+  <image src='/pages/images/ditu.png' mode='widthFix'></image>
+  <text>{{company.address}}</text>
+</view>
 <view class='jishu'>技术支持：河北驰宇网络科技有限公司</view>
+  

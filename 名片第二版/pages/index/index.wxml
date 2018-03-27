@@ -1,0 +1,50 @@
+<view class="content1">
+  <view class='content1Img'>
+    <image src='/pages/images/touxiang.jpg' mode='widthFix'></image>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content2-1'>
+    <view class='content2Name'>
+      <text>朱茵</text>
+    </view>
+    <view class='content2Zhiwei'>
+      <text>CEO</text>
+    </view>
+    <view class='company'>
+      <text>河北驰宇网络科技有限公司</text>
+    </view>
+     <view class='company'>
+      <text>部门：演员部</text>
+    </view>
+     <view class='company'>
+      <text>人气：1125698</text>
+    </view>
+  </view>
+</view>
+<view class='content3'>
+  <view class='content3-1'>
+    <text>个人信息</text>
+  </view>
+  <view class='content3-2'>
+    <text>手机：15189687956</text>
+  </view>
+  <view class='content3-2'>
+    <text>微信：546874853</text>
+  </view>
+  <view class='content3-2'>
+    <text>邮箱：429856987@qq.com</text>
+  </view>
+  <view class='content3-2'>
+    <text>公司：河北驰宇网络科技有限公司</text>
+  </view>
+  <view class='content3-2'>
+    <text>地址：河北石家庄人防大厦</text>
+  </view>
+  <view class='tongbu'>
+    <text>同步到通讯录</text>
+  </view>
+</view>
+<view class='content4'>
+
+</view>

@@ -1,4 +1,4 @@
-// pages/guanwang/index.js
+// pages/logs/index.js
 Page({
 
   /**
@@ -62,25 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  toTel:function(){
-    wx.makePhoneCall({
-      phoneNumber: '123',
-    })
-  },
-  toMap:function(){
-    wx.navigateTo({
-      url: '/pages/map/index',
-    })
-  },
-  toNews:function(){
-    wx.navigateTo({
-      url: '/pages/newsXiangqing/index',
-    })
-  },
-  toBumen:function(){
-    wx.navigateTo({
-      url: '/pages/bumen/index',
-    })
   }
 })

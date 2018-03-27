@@ -1,0 +1,80 @@
+<view class='viewTop'>
+  <view class='topView1'>
+    <image src='/pages/images/datouxiang.png' mode='widthFix' class='Img1'></image>
+  </view>
+  <view class='viewText1'>
+    <text>孙俪</text>
+  </view>
+  <view class='viewText2'>
+    <text style='font-weight:bold'>CEO</text>
+  </view>
+  <view class='viewText2'>
+    <text style='color:#000'>河北驰宇网络科技有限公司</text>
+  </view>
+  <view class='viewText2'>
+    <text style='color:#000'>部门：演员部</text>
+  </view>
+  <view class='viewText2'>
+    <text style='color:#000'>人气：112585</text>
+  </view>
+</view>
+<view class='content1'>
+  <text>个人信息</text>
+</view>
+<view class='content2'>
+  <view class='content2-1' bindtap='toTel'>
+    <text style='color:#000;'>手机</text>
+    <text style='margin-left:40rpx;'>15127896987</text>
+  </view>
+  <view class='content2-1'>
+    <text style='color:#000;'>微信</text>
+    <text style='margin-left:40rpx;'>15127896987</text>
+  </view>
+  <view class='content2-1'>
+    <text style='color:#000;'>邮箱</text>
+    <text style='margin-left:40rpx;'>429856987@qq.com</text>
+  </view>
+  <view class='content2-1'>
+    <text style='color:#000;'>公司</text>
+    <text style='margin-left:40rpx;'>河北驰宇网络科技有限公司</text>
+  </view>
+  <view class='content2-1'>
+    <text style='color:#000;'>地址</text>
+    <text style='margin-left:40rpx;'>石家庄平安南大街河北人防大厦</text>
+  </view>
+  <view class='content2Btn'>同步到通讯录</view>
+</view>
+<!-- <view class='content1'>
+  <text>部门信息</text>
+</view>
+<view class='contentNews'>
+  <view class='news' bindtap='toNews'>
+    <view class='newsImg'>
+      <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
+    </view>
+    <view class='name'>
+      <text>姓名：朱茵</text>
+    </view>
+    <view class='zhiwei'>
+      <text>职位：演员</text>
+    </view>
+    <view class='tel'>
+      <text>电话：15698765894</text>
+    </view>
+  </view>
+  <view class='news' bindtap='toNews'>
+    <view class='newsImg'>
+      <image src='/pages/images/zhuyin.jpg' mode='widthFix'></image>
+    </view>
+    <view class='name'>
+      <text>姓名：朱茵</text>
+    </view>
+    <view class='zhiwei'>
+      <text>职位：演员</text>
+    </view>
+    <view class='tel'>
+      <text>电话：15698765894</text>
+    </view>
+  </view>
+</view> -->
+<view class='jishu'>技术支持：河北驰宇网络科技有限公司</view>
