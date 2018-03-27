@@ -1,0 +1,3 @@
+<!--pages/map/index.wxml-->
+<!--pages/Map/index.wxml-->
+<map id="map" longitude="114.5023200000" latitude="38.0285000000" scale="16" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 1200rpx;"></map>

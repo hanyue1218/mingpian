@@ -1,0 +1,98 @@
+page{
+  background: #f0eff4;
+}
+.content1{
+  width: 94%;
+  height: 400rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin-left: 3%;
+  margin-top: 20rpx;
+}
+.content1L{
+  width: 70%;
+  height: 400rpx;
+  float: left;
+}
+.content1R{
+  width: 30%;
+  height: 400rpx;
+  float: left;
+}
+.content1Name{
+  font-size: 40rpx;
+  /* font-family: '幼圆'; */
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+}
+.content1Tel{
+  font-size: 27rpx;
+  color: #22679e;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+}
+.content1-1{
+  font-size: 27rpx;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+.contentR1{
+  width: 160rpx;
+  height: 150rpx;
+  float: right;
+  margin-right: 25rpx;
+  margin-top: 30rpx;
+}
+.contentR1 image{
+  width: 150rpx;
+  border-radius: 50%;
+}
+.contentR2{
+  width: 130rpx;
+  float: right;
+  margin-top: 60rpx;
+}
+.contentR2 image{
+  width: 70rpx;
+}
+.contentRtext{
+  width: 160rpx;
+  float: right;
+  display: inline-block;
+  font-size: 25rpx;
+  color: #a6a6a6;
+}
+.content2{
+  width: 94%;
+  height: 450rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  margin-left: 3%;
+}
+.content2-1{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+  color: #22679e;
+}
+.content2-2{
+  width: 90%;
+  margin-left: 5%;
+  font-size: 27rpx;
+  line-height: 40rpx;
+}
+.content3{
+  width: 94%;
+  height: 80rpx;
+  background: #1c82d4;
+  color: #fff;
+  margin-left: 3%;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 50rpx;
+  border-radius: 20rpx;
+  font-size: 30rpx;
+}

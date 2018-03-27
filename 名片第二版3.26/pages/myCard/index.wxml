@@ -1,0 +1,48 @@
+<view class='content1'>
+  <view class='content1L'>
+    <view class='content1Name'>
+      <text>洛菲克</text>
+      <text style='font-size:28rpx; margin-left:15rpx; font-stretch: semi-condensed;'>律所主任</text>
+    </view>
+    <view class='content1Tel'>
+      <text>手机</text>
+      <text style='font-size:35rpx; margin-left:30rpx;'>15896874596</text>
+    </view>
+    <view class='content1-1'>
+      <text style='color: #22679e;'>电话</text>
+      <text style='font-size:25rpx; margin-left:30rpx;'>0311-89658496</text>
+    </view>
+    <view class='content1-1'>
+      <text style='color: #22679e;'>QQ</text>
+      <text style='font-size:25rpx; margin-left:30rpx;'>5465451515</text>
+    </view>
+    <view class='content1-1'>
+      <text style='color: #22679e;'>微信</text>
+      <text style='font-size:25rpx; margin-left:30rpx;'>15082496587</text>
+    </view>
+  </view>
+  <view class='content1R'>
+    <view class='contentR1'>
+      <image src='/pages/images/touxiang.jpg' mode='widthFix'></image>
+    </view>
+    <view bindtap='toMyerweima'>
+      <view class='contentR2'>
+        <image src='/pages/images/ma.png' mode='widthFix'></image>
+      </view>
+      <view class='contentRtext'>
+        <text>我的二维码</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content2-1'>
+    <text>个人介绍</text>
+  </view>
+  <view class='content2-2'>
+    <text>个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍个人介绍</text>
+  </view>
+</view>
+<view class='content3'>
+  <text>同步到通讯录</text>
+</view>

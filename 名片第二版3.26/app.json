@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index",
+    "pages/product/index",
+    "pages/mingpianList/index",
+    "pages/myerweima/index",
+    "pages/myCard/index",
+    "pages/productXiangqing/index",
+    "pages/newsXiangqing/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1c82d4",
+    "navigationBarTitleText": "名片第二版"
+  },
+  "tabBar": {
+    "color": "#8c8a8c",
+    "selectedColor": "#1c82d4",
+    "list": [
+      {
+        "iconPath": "/pages/images/nav4.png",
+        "selectedIconPath": "/pages/images/nav4-1.png",
+        "pagePath": "pages/index/index",
+        "text": "官网"
+      },
+      {
+        "iconPath": "/pages/images/nav2.png",
+        "selectedIconPath": "/pages/images/nav2-1.png",
+        "pagePath": "pages/product/index",
+        "text": "产品"
+      },
+      {
+        "iconPath": "/pages/images/nav1.png",
+        "selectedIconPath": "/pages/images/nav1-1.png",
+        "pagePath": "pages/mingpianList/index",
+        "text": "名片"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

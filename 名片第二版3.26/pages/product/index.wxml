@@ -1,0 +1,32 @@
+<view class="content1" bindtap='toXiangqing'>
+  <view class='content1L'>
+    <image src='/pages/images/touxiang.jpg' mode='widthFix'></image>
+  </view>
+  <view class='contentR'>
+    <view class='contentR1'>
+      <text>产品信息</text>
+    </view>
+    <view class='contentR2'>
+      <text>产品名称：洛菲克</text>
+    </view>
+    <view class='contentR2'>
+      <text>产品价格：￥500.00</text>
+    </view>
+  </view>
+</view>
+<view class="content1" bindtap='toXiangqing'>
+  <view class='content1L'>
+    <image src='/pages/images/touxiang.jpg' mode='widthFix'></image>
+  </view>
+  <view class='contentR'>
+    <view class='contentR1'>
+      <text>产品信息</text>
+    </view>
+    <view class='contentR2'>
+      <text>产品名称：洛菲克</text>
+    </view>
+    <view class='contentR2'>
+      <text>产品价格：￥500.00</text>
+    </view>
+  </view>
+</view>

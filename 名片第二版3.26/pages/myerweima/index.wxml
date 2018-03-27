@@ -1,0 +1,24 @@
+<!--pages/myerweima/index.wxml-->
+<view class='content1'>
+  <view class='content1-1'>
+    <image src='/pages/images/touxiang.jpg' mode='widthFix'></image>
+  </view>
+  <view class='content1-2'>
+    <text style='color:#1c82cf;font-size:38rpx;'>洛菲克</text>
+    <text style='margin-left:10rpx;'>专属小程序码</text>
+  </view>
+  <view class='content1-3'>
+    <text>长按或扫描进入</text>
+  </view>
+</view>
+<view class='content2'>
+  <view class='content2-1'>
+    <image src='/pages/images/xiaochengxu.jpg' mode='widthFix'></image>
+  </view>
+  <view class='content2-2'>
+    <text>洛菲克 名片码</text>
+  </view>
+</view>
+<view class='footer'>
+  <text>技术支持：河北驰宇网络科技有限公司</text>
+</view>

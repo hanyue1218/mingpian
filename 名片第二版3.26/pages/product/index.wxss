@@ -1,0 +1,37 @@
+page{
+  background: #f0eff4;
+}
+.content1{
+  width: 94%;
+  height: 230rpx;
+  background: #fff;
+  border-radius: 15rpx;
+  margin-left: 3%;
+  margin-top: 30rpx;
+  box-shadow: 1rpx 10rpx 20rpx #b8b7b7;
+}
+.content1L{
+  width: 200rpx;
+  height: 230rpx;
+  float: left;
+  display: flex;  
+  align-items: center;  
+  margin-left: 30rpx;
+}
+.content1L image{
+  width: 150rpx;
+}
+.contentR{
+  width: 450rpx;
+  height: 230rpx;
+  float: left;
+}
+.contentR1{
+  font-size: 35rpx;
+  margin-top: 30rpx;
+  color: #1c82d4;
+}
+.contentR2{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}

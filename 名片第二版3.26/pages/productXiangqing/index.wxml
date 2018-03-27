@@ -1,0 +1,27 @@
+<!--pages/productXiangqing/index.wxml-->
+<view class='viewTop' bindtap='toProductXiangqing'>
+  <view class='topView1'>
+    <image src='/pages/images/zhuyin.jpg' mode='widthFix' class='Img1'></image>
+  </view>
+  <view style='margin-top: 5rpx;'>
+    <text class='viewText1'>产品一</text>
+    <text class='viewText2'>￥1000.00</text>
+  </view>
+</view>
+<view class='content1'>
+  <view class='content1-1'>
+    <text>产品详情</text>
+  </view>
+  <view class='content1-2'>
+    <image src='/pages/images/xiangqing.jpg' mode='widthFix'></image>
+  </view>
+</view>
+<view class='kongbai'></view>
+<view class='footer'>
+  <view class='footer1'>
+    <text>咨询</text>
+  </view>
+  <view class='footer2'>
+    <text>转发给朋友</text>
+  </view>
+</view>

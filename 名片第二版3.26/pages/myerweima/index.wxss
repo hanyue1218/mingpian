@@ -1,0 +1,58 @@
+/* pages/myerweima/index.wxss */
+page{
+  background: url('http://source.apichiyu.xyz/mingpian/myself-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content1{
+  width: 100%;
+  height: 370rpx;
+}
+.content1-1{
+  width: 100%;
+  height: 150rpx;
+  text-align: center;
+}
+.content1-1 image{
+  width: 150rpx;
+  border-radius: 50%;
+  margin-top: 50rpx;
+}
+.content1-2{
+  width: 100%;
+  margin-top: 90rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+.content1-3{
+  width: 100%;
+  font-size: 30rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.content2-1{
+  width: 100%;
+  text-align: center;
+}
+.content2-1 image{
+  width: 300rpx;
+  border-radius: 50%;
+}
+.content2-2{
+  width: 100%;
+  font-size: 30rpx;
+  text-align: center;
+  color: #fff;
+}
+.footer{
+  width: 100%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 25rpx;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
